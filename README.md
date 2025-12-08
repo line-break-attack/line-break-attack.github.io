@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <div align="center">
   <img src="logo.png" width="150">
 </div>
