@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" width="300">
+  <img src="logo.png" width="150">
 </div>
 
 # LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing
