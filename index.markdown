@@ -6,6 +6,8 @@ layout: default
   <img src="logo.png" width="150">
 </div>
 
+<div class="w-75 mx-auto">
+
 # LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing
 
 LINE is a popular messaging platform used daily by millions of users in Southeast Asia -- most notably Japan, Taiwan, Thailand, and Indonesia.
@@ -36,3 +38,5 @@ We are a group of researchers from the [Department of Computer Science](https://
 * Diego F. Aranha, Associate Professor
 * Adam Blatchley Hansen, PhD student
 * Thomas Kingo T. Mogensen, MSc.
+
+</div>
