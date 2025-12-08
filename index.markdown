@@ -3,10 +3,7 @@ layout: default
 ---
 
 <div align="center">
-  <br>
-  <img src="logo.png" width="150">
-  <br>
-  <br>
+  <br><img src="logo.png" width="150"><br><br>
 </div>
 
 <div class="w-50 mx-auto">
@@ -18,7 +15,9 @@ It is particularly strong and an essential communication tool in Japan and Taiwa
 
 We analyze its underlying end-to-end encryption (E2EE) protocol Letter Sealing v2 (LSv2) and show that a TLS Man-in-the-Middle (MitM) or malicious server can compromise integrity, authenticity, and confidentiality in various experimentally verified attacks.
 
-<a class="btn btn-primary" href="white-paper.pdf">Read the white paper</a>
+<div align="center">
+    <a class="btn btn-primary" href="white-paper.pdf">Read the white paper</a>
+</div>
 
 ## Overview
 
