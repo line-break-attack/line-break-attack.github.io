@@ -11,6 +11,7 @@
 
 <h1 align="center"><img src="logo-png" width="150"/> <br>LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing</h1>
 
+<div align="center">
 LINE is a popular messaging platform used daily by millions of users in Southeast Asia -- most notably Japan, Taiwan, Thailand, and Indonesia.
 It is particularly strong and an essential communication platform in Japan and Taiwan, with more than 85% of user adoption among the population.
 
@@ -18,3 +19,4 @@ We present a security analysis of the custom end-to-end encryption (E2EE) protoc
 Our findings show that Letter Sealing allows a TLS Man-in-the-Middle attacker or malicious server to violate integrity, authenticity, and confidentiality of communications in various experimentally verified attacks.
 
 <a class="btn btn-primary" href="white-paper.pdf">Read the white paper</a>
+</div>
