@@ -13,7 +13,7 @@ layout: default
 
 # LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing
 
-LINE is a popular messaging platform used daily by millions of users in Southeast Asia -- most notably Japan, Taiwan, Thailand, and Indonesia.
+[LINE](https://www.line.me/en/) is a popular messaging platform used daily by millions of users in Southeast Asia -- most notably Japan, Taiwan, Thailand, and Indonesia.
 It is particularly strong and an essential communication platform in Japan and Taiwan, with more than 85% of user adoption among the population.
 
 We present a security analysis of the custom end-to-end encryption (E2EE) protocol underlying LINE, known as Letter Sealing v2 (LSv2).
@@ -22,6 +22,20 @@ Our findings show that Letter Sealing allows a TLS Man-in-the-Middle attacker or
 <div align="center">
   <a class="btn btn-primary" href="white-paper.pdf">Read the white paper</a>
 </div>
+
+## Overview
+
+Letter Sealing is [claimed](https://scdn.line-apps.com/stf/linecorp/en/csr/line-encryption-whitepaper-ver2.1.pdf) to provide E2EE for text messages and media streams, ensuring that "no third parties or LINE Corporation can decrypt private calls and messages".
+
+The company asserts confidentiality, partial forward security (between clients and servers only through TLS), integrity and authenticity.
+LSv2 employs standardized primitives, such as ECDH for static key exchange using X25519, and AES256-GCM for payload encryption.
+
+## Threat model
+
+Our security analysis assumes several adversarial settings capturing both external and internal threats to an E2EE messenger. These models reflect realistic attack surfaces for LSv2:
+* _Malicious Server_: The strongest adversary, controlling the LINE servers and capable of intercepting, modifying, replaying, or injecting any ciphertext exchanged between clients. This captures the case of a compromised or malicious service provider and is the primary threat model for E2EE, as the protocol should preserve confidentiality and authenticity even against an insider.
+* _MitM Adversary_: A network attacker positioned between a client and the server, able to observe and manipulate traffic but without full server control. The MitM model is relevant when transport-layer protections (e.g., TLS) are disabled, bypassed, or compromised. Furthermore, an MitM attacker can emulate a malicious server by manipulating metadata.
+* _Malicious User_: A legitimate participant in a one-to-one or group chat who misuses their possession of shared (group) keys to manipulate protocol state and break another user’s security properties (e.g., forging or replaying messages).
 
 ## Our results
 
