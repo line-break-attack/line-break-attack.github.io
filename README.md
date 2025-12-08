@@ -1,8 +1,5 @@
 <!-- Load Bootstrap CSS -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
 <style>
 .btn-primary {
@@ -12,6 +9,13 @@
 
 .text-primary {
     color: #00b900 !important;
+}
+
+a {
+    color: #00b900;
+}
+a:hover {
+    color: #00b900;
 }
 </style>
 
