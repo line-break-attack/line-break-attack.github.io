@@ -13,8 +13,9 @@ We analyze its underlying end-to-end encryption (E2EE) protocol Letter Sealing v
 
 ## Overview
 
-Letter Sealing claims to provide E2EE for messages and media, ensuring that "no third parties or LINE can decrypt private communications."  
-It uses standardized primitives: X25519 for key exchange and AES256-GCM for encryption, supporting confidentiality, partial forward secrecy (TLS only), integrity, and authenticity.
+Letter Sealing is [claimed](https://scdn.line-apps.com/stf/linecorp/en/csr/line-encryption-whitepaper-ver2.1.pdf) to provide E2EE for text messages and media streams, ensuring that "_no third parties or LINE Corporation can decrypt private calls and messages_".
+
+The company asserts confidentiality, partial forward security (between clients and servers only through TLS), integrity and authenticity. LSv2 employs standardized primitives, such as ECDH for static key exchange using X25519, and AES256-GCM for payload encryption.
 
 ## Threat model
 
