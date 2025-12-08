@@ -41,7 +41,7 @@ We interact with LINE servers through both the official application and an indep
 
 ## Disclosure
 
-Our findings were disclosed in June to the LY Corporation Computer Security Incident Response Team and later confirmed by the Letter Sealing Team, with a statement submitted as supplementary material.
+Our findings were disclosed in 06/06/2025 to the LY Corporation Computer Security Incident Response Team and later confirmed by the Letter Sealing Team, who provided a [statement](statement-ly-corporation.pdf) as a response.
 
 ## Team
 
