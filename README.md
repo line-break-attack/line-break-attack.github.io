@@ -4,6 +4,17 @@
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 >
 
+<style>
+.btn-primary {
+    background-color: #00b900 !important; 
+    border-color: #00b900 !important;
+}
+
+.text-primary {
+    color: #00b900 !important;
+}
+</style>
+
 <div align="center">
   <img src="logo.png" width="150">
 </div>
