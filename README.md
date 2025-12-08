@@ -19,9 +19,9 @@ It uses standardized primitives: X25519 for key exchange and AES256-GCM for encr
 ## Threat model
 
 We consider realistic adversaries:
-* _Malicious Server_: Full control of LINE servers; can intercept, modify, replay, or inject messages. LSv2 should remain secure even here.
-* _MitM Adversary_: Network attacker able to observe or modify traffic but without server control.
-* _Malicious User_: Legitimate chat participant who misuses shared keys to forge or replay messages.
+* _Malicious Server_: Full control of LINE servers; can intercept, modify, replay, or inject messages. This captures the case of a compromised or malicious service provider and is the primary threat model for E2EE, LSv2 should remain secure even here.
+* _MitM Adversary_: Network attacker able to observe or modify traffic but without server control. The MitM model is relevant when TLS is disabled, bypassed, or compromised. Furthermore, an MitM attacker can emulate a malicious server by manipulating metadata.
+* _Malicious User_: Legitimate participant who misuses their possession of shared (group) keys to manipulate protocol state and break another user’s security properties.
 
 ## Our results
 
