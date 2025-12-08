@@ -9,7 +9,7 @@
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
 </script>
 
-<h1 align="center"><img src="logo-png" width="150"/> <br>LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing</h1>
+<h1 align="center"><img src="logo.png" width="150"/> <br>LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing</h1>
 
 <div align="center">
 LINE is a popular messaging platform used daily by millions of users in Southeast Asia -- most notably Japan, Taiwan, Thailand, and Indonesia.
