@@ -21,4 +21,4 @@ It is particularly strong and an essential communication platform in Japan and T
 We present a security analysis of the custom end-to-end encryption (E2EE) protocol underlying LINE, known as Letter Sealing v2.
 Our findings show that Letter Sealing allows a TLS Man-in-the-Middle attacker or malicious server to violate integrity, authenticity, and confidentiality of communications in various experimentally verified attacks.
 
-[Read the white paper](white-paper.pdf)
+<a class="btn btn-primary" href="white-paper.pdf">Read the white paper</a>
