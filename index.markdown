@@ -37,7 +37,7 @@ We consider realistic adversaries:
 We present the following attacks:
 * __Equivocation attacks__: messages can be replayed, reordered, or dropped without the endpoints being aware, violating transcript consistency. This is inherent to the stateless nature of the protocol, which is insufficiently mitigated by easy-to-bypass server-side countermeasures.
 * __Impersonation attacks__: the authorship of messages in one-to-one and group chats can be forged by a malicious user colluding with the adversary. This is a direct consequence of the way (group) keys are generated and managed in LSv2, and the lack of origin authentication measures.
-* __Plaintext leakage attacks__: there is substantial leakage of plaintext through usability features, such as stickers and URL previews. We observe that these features reveal more plaintext than what is publicly documented about the protocol..
+* __Plaintext leakage attacks__: there is substantial leakage of plaintext through usability features, such as stickers and URL previews. We observe that these features reveal more plaintext than what is publicly documented about the protocol.
 
 Combining these attacks, we show how the adversary would theoretically be able to forge communications among a subset of parties in a group chat, or infiltrate a group chat and manipulate its following communication.
 
