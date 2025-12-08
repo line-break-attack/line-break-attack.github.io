@@ -17,3 +17,10 @@ We present a security analysis of the custom end-to-end encryption (E2EE) protoc
 Our findings show that Letter Sealing allows a TLS Man-in-the-Middle attacker or malicious server to violate integrity, authenticity, and confidentiality of communications in various experimentally verified attacks.
 
 <a class="btn btn-primary" href="white-paper.pdf">Read the white paper</a>
+
+## Team
+
+We are a group of researchers from the [The Department of Computer Science](https://www.cs.au.dk) at [Aarhus University](https://www.au.dk):
+* Diego F. Aranha, Associate Professor
+* Adam Blatchley Hansen, PhD student
+* Thomas Kingo T. Mogensen, MSc.
