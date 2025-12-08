@@ -41,7 +41,7 @@ We present the following attacks:
 
 Combining these attacks, we show how the adversary would theoretically be able to forge communications among a subset of parties in a group chat, or infiltrate a group chat and manipulate its following communication.
 
-The experiments were conducted using a MitM setup against an iOS client using a rogue root certificate, such that the adversary would be capable of tampering with protocol metadata in the same way as a malicious server.
+The experiments were conducted using a MitM setup against an iOS client using a rogue root certificate, such that the adversary would be capable of tampering with protocol metadata in the same way as a malicious server. We captured [videos](videos/) of the attacks in practice.
 We interact with LINE servers through both the official application and an independent JavaScript implementation of the client-side portion of the protocol, called [LINEJS](https://github.com/evex-dev/linejs).
 
 ## Disclosure
