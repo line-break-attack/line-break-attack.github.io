@@ -6,7 +6,7 @@ layout: default
   <br><img src="logo.png" width="150"><br><br>
 </div>
 
-<div class="w-50 mx-auto" data-bs-theme="dark">
+<div class="w-50 mx-auto">
 
 # LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing
 
