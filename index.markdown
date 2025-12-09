@@ -16,7 +16,7 @@ It is particularly strong and an essential communication tool in Japan and Taiwa
 We analyze its underlying end-to-end encryption (E2EE) protocol Letter Sealing v2 (LSv2) and show that a TLS Man-in-the-Middle (MitM) or malicious server can compromise integrity, authenticity, and confidentiality in various experimentally verified attacks.
 
 <div align="center">
-    <a class="btn btn-primary" href="white-paper.pdf">Read the white paper</a>
+    <a class="btn btn-primary" href="white-paper-anon.pdf">Read the white paper</a>
 </div>
 
 ## Overview
@@ -49,7 +49,7 @@ We interact with LINE servers through both the official application and an indep
 
 ## Disclosure
 
-Our findings were disclosed in 06/06/2025 to the LY Corporation Computer Security Incident Response Team and later confirmed by the Letter Sealing Team, who provided a [statement](statement-ly-corporation.pdf) as a response.
+Our findings were disclosed in 06/06/2025 to the LY Corporation Computer Security Incident Response Team and later confirmed by the Letter Sealing Team, who provided a [statement](statement-ly-corporation-anon.pdf) as a response.
 
 ## Team
 
