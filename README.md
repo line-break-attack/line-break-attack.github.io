@@ -45,7 +45,11 @@ Our findings were disclosed in 06/06/2025 to the LY Corporation Computer Securit
 
 ## Team
 
+Anonymized due to requirements of an ongoing conference submission.
+
+<!--
 We are a group of researchers from the [Department of Computer Science](https://www.cs.au.dk) at [Aarhus University](https://www.au.dk):
 * Diego F. Aranha, Associate Professor
 * Adam Blatchley Hansen, PhD student
 * Thomas Kingo T. Mogensen, MSc.
+-->
