@@ -13,7 +13,7 @@ layout: default
 [LINE](https://www.line.me/en/) is a popular messaging platform in Southeast Asia -- most notably Japan, Taiwan, Thailand, and Indonesia.
 It is particularly strong and an essential communication tool in Japan and Taiwan, with more than 85% of user adoption among the population.
 
-We analyze its underlying end-to-end encryption (E2EE) protocol Letter Sealing v2 (LSv2) and show that a TLS Man-in-the-Middle (MitM) or malicious server can compromise integrity, authenticity, and confidentiality in various experimentally verified attacks.
+We analyze its underlying end-to-end encryption (E2EE) protocol Letter Sealing v2 (LSv2) and show that a TLS Machine-in-the-Middle (MitM) or malicious server can compromise integrity, authenticity, and confidentiality in various experimentally verified attacks.
 
 <div align="center">
     <a class="btn btn-primary" href="white-paper.pdf">Read the white paper...</a><br><br>
