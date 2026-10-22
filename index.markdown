@@ -17,7 +17,7 @@ We analyze its underlying end-to-end encryption (E2EE) protocol Letter Sealing v
 
 <div align="center">
     <a class="btn btn-primary" href="white-paper.pdf">Read the white paper...</a><br><br>
-    <a class="btn btn-primary" href="full-paper.pdf">...or the full paper (to appear at ASIACCS'26)</a>
+    <a class="btn btn-primary" href="full-paper.pdf">...or the full paper (presented at ASIACCS'26)</a>
 </div>
 
 ## Overview
